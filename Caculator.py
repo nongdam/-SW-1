@@ -13,6 +13,9 @@ def divide(x,y):
     else:
         return x/y
 
+def crash():
+    return "충돌"
+
 while True:
     choice = input("| 1.더하기 | 2.빼기 | 3.곱하기 | 4. 나누기 | : ")
     
@@ -32,7 +35,7 @@ while True:
             print(f"{num1} - {num2} = {subtract(num1, num2)}")
             
         case '3':
-            print((f"{num1} * {num2} = {multiply(num1, num2)}"))
+            print(f"{num1} * {num2} = {multiply(num1, num2)}")
             
         case '4':
-            print((f"{num1} / {num2} = {divide(num1, num2)}"))
+            print(f"{num1} / {num2} = {divide(num1, num2)}")
