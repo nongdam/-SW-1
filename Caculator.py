@@ -16,9 +16,6 @@ def divide(x,y):
 def crash():
     return "crash"
 
-def crash():
-    return "충돌"
-
 while True:
     choice = input("| 1.더하기 | 2.빼기 | 3.곱하기 | 4. 나누기 | : ")
     
