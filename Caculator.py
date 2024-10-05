@@ -12,6 +12,9 @@ def divide(x,y):
         return "0으로 나눌 수 없습니다"
     else:
         return x/y
+    
+def crash():
+    return "crash"
 
 while True:
     choice = input("| 1.더하기 | 2.빼기 | 3.곱하기 | 4. 나누기 | : ")
